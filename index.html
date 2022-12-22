@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RakitAjaStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <!-- line icon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- solid icon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link rel="icon" href="asset/log.png">
+
+</head>
+<body>
+<!-- <===========/* HEADER */===========> -->
+
+<header class="header" id="header">
+    <!-- <===========/* NAVBAR */===========> -->
+   <nav class="nav__container">
+    <a href="#home"><img src="/asset/logo.png" alt="" class="nav__logo"></a>
+    <ul class="nav__list">
+        <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+        </li>
+        <li class="nav__item">
+            <a href="#" class="nav__link">Promo</a>
+        </li>
+        <li class="nav__item">
+            <a href="#category" class="nav__link">Shop</a>
+        </li>
+        <li class="nav__item">
+            <a href="#" class="nav__link">Contact</a>
+        </li>
+    </ul>
+
+    <!-- ICON -->
+    <div class="nav__icon">
+        <i id="search-btn" class="uil uil-search"></i>
+        <i class="uil uil-shopping-bag"></i>
+        <i id="login-btn" class="uil uil-user"></i>        
+    </div>
+
+    <!-- SEARCH -->
+    <div class="nav__search">
+        <input type="search" placeholder="Search here...">
+        <i class="uil uil-search"></i>
+    </div>
+
+    <!-- CART -->
+
+    <!-- USER LOGIN -->
+    <div class="nav__login">
+        <h1>LOGIN</h1>
+        <form>
+            <label>Username</label><br>
+            <input type="text"><br>
+            <label>Password</label><br>
+            <input type="password"><br>
+            <button>Login</button>
+            <br><br><p>if you don't have account <br>
+            you can <a href="#">Sign Up Here</a></p>
+        </form>
+    </div>
+
+    <div class="hamburger">
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+   </nav>
+</header>
+<div class="wa">
+    <a href="#"><i class="uis uis-angle-double-up"></i></a>
+</div>
+<!-- <div class="ig">
+    <a href="#"><i class="uis uis-angle-double-up"></i></a>
+</div> -->
+
+
+<!-- <===========/* CONTENT 1 HOME */===========> -->
+<section id="home">
+    <div class="container">
+        <!-- <h5>New Arrival</h5> -->
+        <h1>FIND <span style="color: #f0b116;">THE BEST PRICE</span> OF</h1>
+        <div class="wrapper">
+            <ul class="dynamic">
+                <li><span style="background-color: #f0b116;">GUNDAM</span></li>
+                <li><span style="background-color: #f0b116;">TAMIYA</span></li>
+                <li><span style="background-color: #f0b116;">LEGO</span></li>
+                <li><span style="background-color: #f0b116;">HOT WHEELS</span></li>
+            </ul>
+        </div>
+        <br><br>
+        <form  action="#category">
+             <button type="submit">Shop Now</i></button>
+        </form>
+    </div>
+    <img src="asset/home.png" alt="">
+</section>
+
+<!-- <===========/* BRAND SECTION */===========> -->
+<section id="brand">
+    <div class="brand__container">
+       <img src="/asset/img/brand/1.jpg.png" alt="">
+    </div>
+</section>
+
+<!-- <===========/* CATEGORY SECTION */===========> -->
+<h2 class="featured__title" id="category">Our Collection</h2>
+<sectiion class="category__container" >
+        <div class="category__item" style="background-image: url(/asset/img/new/gun.jpg);">
+            <div class="category__details">
+                <h1>Gundam</h1>
+                <form action="/collection/gundam/gundam.html">
+                    <button>View Items<i class="uis uis-arrow-circle-right arrow"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="category__item" style="background-image: url(/asset/img/new/lego.jpg);">
+            <div class="category__details">
+                <h1>LEGO</h1>
+                <form action="/collection/lego/lego.html">
+                    <button>View Items<i class="uis uis-arrow-circle-right arrow"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="category__item" style="background-image: url(/asset/img/new/tm.jpg);">
+            <div class="category__details">
+                <h1>Tamiya</h1>
+                <form action="/collection/tamiya/tamiya.html">
+                    <button>View Items<i class="uis uis-arrow-circle-right arrow"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="category__item" style="background-image: url(/asset/img/new/hw.jpg);">
+            <div class="category__details">
+                <h1>Hot Wheels</h1>
+                    <button>View Items<i class="uis uis-arrow-circle-right arrow"></i></button>
+            </div>
+        </div>
+    </div>
+</sectiion>
+
+<!-- <===========/* breaks */===========> -->
+<br>
+<section class="breaks">
+    <div class="container">
+        <h5>New Arrival</h5>
+        <h1>FIND <span>THE BEST PRICE</span> HERE</h1>
+        <p>Every type of Gundam, Tamiya, Lego was here, <br> so you can choose what you need </p>
+        <br><br>
+        <form action="#category">
+             <button>Shop Now</i></button>
+        </form>
+    </div>
+</section>
+
+
+<!-- <===========/* FEATURED SECTION */===========> -->
+<section class="feature__container">
+    <br><br><h2 class="featured__title">Just For You</h2>
+    <div class="featured__product">
+        <!-- <=====GUNDAM START=====> -->
+        <a href="#" style="background-image: url('/asset/items/Gundam/1.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Liu Bei Unicorn</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5>Rp 100.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/Gundam/5.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Sun Jian Astray</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5>Rp 100.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/Gundam/7.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Ma Chao Barbatos</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5>Rp 100.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/Gundam/6.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Dong Zhuo Providence</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5>Rp 100.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/Gundam/2.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Guan Yu Yun Chang ν</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star-half-alt"></i>
+                </div>
+                <p class="item__count">4.5</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/Gundam/3.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Zhang Fei God</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5>Rp 100.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/Gundam/4.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Cao Cao Wing</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5>Rp 100.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/Gundam/8.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">SDSS Zhang He Altron</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 85.000</h3>
+                    <h5>Rp 100.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <!-- <=====GUNDAM END=====> -->
+        <!-- <=====LEGO START=====> -->
+        <a href="#" style="background-image: url('/asset/items/lego/1.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">LEGO®️ 42123 </h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 965.500</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/lego/6.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">LEGO® 76989</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 1.650.000</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/lego/5.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">LEGO® Star Wars™ 75315</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 2.750.200</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/lego/2.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">LEGO®️ 71742</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 470.000</h3>
+                    <h5>Rp 550.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/lego/3.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">LEGO®️ Super Heroes 76153 </h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 2.150.000</h3>
+                    <h5>Rp 2.500.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/lego/4.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">LEGO®️ Star Wars 75306</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 1.460.400</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <!-- <=====LEGO END=====> -->
+        <!-- <=====TAMIYA START=====> -->
+        <a href="#" style="background-image: url('/asset/items/tamiya/1.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA TRIGALE</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 160.000</h3>
+                    <h5>Rp. 180.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/tamiya/2.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA SHOOTING PROUD STAR</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 175.000</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/tamiya/3.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA RAY SPEAR</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 200.000</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/tamiya/4.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA JADOW A</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 185.000</h3>
+                    <h5>Rp 195.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/tamiya/5.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA GEO GLIDER BLACK</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 210.000</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/tamiya/6.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA MANTA RAY MK.II</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 210.000</h3>
+                    <h5></h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/tamiya/7.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA FESTA JAUNE BLACK</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3 >Rp 410.000</h3>
+                    <h5>Rp 450.000</h5>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" style="background-image: url('/asset/items/tamiya/8.jpg') ;" class="featured__items card">
+            <div class="featured__items__detail">
+                <h4 class="item__title">TAMIYA BLAST ARROW BLACK</h4>
+                <div class="item__star">
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                    <i class="uis uis-star"></i>
+                </div>
+                <p class="item__count">5.0</p>
+                <div class="item__price">
+                    <h3>Rp 520.000</h3>
+                    <h5>Rp 550.000</h5>
+                </div>
+            </div>
+        </a>
+    <!-- <=====TAMIYA END=====> -->
+
+    </div>
+</section>
+
+
+
+
+<!-- <===========/* TESTIMONI SECTION */===========> -->
+
+</section>
+
+
+
+
+
+<br><br> <br><br> <br><br> <br><br><br><br> <br><br> <br><br> <br><br><br><br> <br><br> <br><br> <br><br><br><br> <br><br> <br><br> <br><br>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- script bootstrap -->
+<script src="main.js"></script>
+</body>
+</html>
